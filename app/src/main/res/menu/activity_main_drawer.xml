@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_drawer_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@android:drawable/ic_search_category_default"
+            android:title="@string/search" />
+
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_baseline_message_24"
+            android:title="@string/messages" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="@string/action_settings" />
+
+        <item
+            android:id="@+id/nav_connected"
+            android:icon="@drawable/ic_baseline_favorite_24"
+            android:title="@string/connected" />
+
+        <item
+            android:id="@+id/nav_recents"
+            android:icon="@drawable/ic_baseline_restore_24"
+            android:title="@string/recents" />
+
+        <item
+            android:id="@+id/nav_downloads"
+            android:icon="@android:drawable/stat_sys_download"
+            android:title="@string/downloads" />
+
+        <item
+            android:id="@+id/nav_mylist"
+            android:icon="@drawable/ic_baseline_playlist_add_24"
+            android:title="@string/mylist" />
+
+
+    </group>
+</menu>
